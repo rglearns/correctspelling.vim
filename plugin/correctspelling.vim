@@ -1,5 +1,6 @@
-function! correctLastSpellingError()
+function! CorrectLastSpellingError()
 	 normal! mm[s1z=`m 
- endfunction
+endfunction
+set spell
  nnoremap <leader>sp : call correctLastSpellingError()<cr>
 
